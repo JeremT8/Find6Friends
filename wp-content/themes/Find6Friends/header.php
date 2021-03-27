@@ -14,27 +14,16 @@
 					<i class="fas fa-bars"></i>
 					<i class="fas fa-times"></i>
 				</div>
-				<a href="index.html" class="logo"><img src="assets/images/logo.png" alt=""></a>
-				<ul class="nav-list">
-					<li class="nav-item">
-						<a href="index.html" class="nav-link active">ACCUEIL</a>
-					</li>
-					<li class="nav-item">
-						<a href="agent-r6.html" class="nav-link">AGENTS R6</a>
-					</li>
-					<li class="nav-item">
-						<a href="#" class="nav-link">NOS MEMBRES</a>
-					</li>
-					<li class="nav-item">
-						<a href="#" class="nav-link">CONTACT</a>
-					</li>
-					<li class="nav-item">
-						<a href="#" class="nav-link">S'INSCRIRE</a>
-					</li>
-					<li class="nav-item">
-						<a href="#" class="nav-link">CONNEXION</a>
-					</li>
-				</ul>
+				<a href="<?= home_url('/') ?>" class="logo" title="<?= __("Homepage", "F6F")?>">
+				<img src="<?= get_theme_mod('logo') ?>" alt="">
+				</a>
+				<?php 
+				wp_nav_menu([
+					'theme_location' => 'header',
+					'container' => false,
+					'menu_class' => 'header container nav nav-list nav-item nav-link ',
+				])
+				?>
 			</nav>
 		</div>
 	</header>
