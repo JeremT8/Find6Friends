@@ -2,7 +2,7 @@
 	<!-- HEADER ENDS -->
 	<section class="hero" id="hero">
 		<div class="container">
-			<h2 class="sub-headline">
+			<h2 class="sub-headline sub-headline-hero">
 				<span class="first-letter">B</span>ienvenue
 			</h2>
 			<h1 class="headline">sur Find 6 Friends</h1>
@@ -29,7 +29,6 @@
 							<span class="first-letter">N</span>otre
 						</h2>
 						<h1 class="headline headline-dark">concept</h1>
-						<div class="dice"><i class="fas fa-dice-six"></i></div>
 					</div>
 					<p>
 						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, id dolores provident sint quia
@@ -39,7 +38,7 @@
 					<a href="" class="btn body-btn">A propos de nous</a>
 				</div>
 				<div class="story-info-img animate-right">
-					<img src="images/our-story.png" alt="">
+					<img src="assets/images/our-story.png" alt="">
 				</div>
 			</div>
 		</div>
@@ -58,10 +57,10 @@
 						<div class="dice"><i class="fas fa-dice-six-six"></i></div>
 					</div>
 					<div class="image-group padding-right animate-left">
-						<img src="images/bandit.jpg" alt="">
-						<img src="images/Thermite.jpg" alt="">
-						<img src="images/valkyrie.jpg" alt="">
-						<img src="images/thatcher.jpg" alt="">
+						<img src="assets/images/bandit.jpg" alt="">
+						<img src="assets/images/Thermite.jpg" alt="">
+						<img src="assets/images/valkyrie.jpg" alt="">
+						<img src="assets/images/thatcher.jpg" alt="">
 					</div>
 					<br>
 					<p>
@@ -86,10 +85,10 @@
 	</section>
 	<!-- OUS MEMBERS ENDS-->
 	<div class="image-group padding-right animate-left member-list">
-		<img src="images/avatar.jpg" alt="">
-		<img src="images/avatar.jpg" alt="">
-		<img src="images/avatar.jpg" alt="">
-		<img src="images/avatar.jpg" alt="">
+		<img src="assets/images/avatar.jpg" alt="">
+		<img src="assets/images/avatar.jpg" alt="">
+		<img src="assets/images/avatar.jpg" alt="">
+		<img src="assets/images/avatar.jpg" alt="">
 	</div>
 	
 	<?php get_footer() ?>
