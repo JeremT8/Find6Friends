@@ -21,7 +21,7 @@
 				wp_nav_menu([
 					'theme_location' => 'header',
 					'container' => false,
-					'menu_class' => 'header container nav nav-list nav-item nav-link ',
+					'menu_class' => 'nav-list',
 				])
 				?>
 			</nav>
