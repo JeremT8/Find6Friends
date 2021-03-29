@@ -17,26 +17,14 @@
 				<a href="<?= home_url('/') ?>" class="logo" title="<?= __("Homepage", "F6F")?>">
 				<img src="<?= get_theme_mod('logo') ?>" alt="">
 				</a>
-				<ul class="nav-list">
-					<li class="nav-item">
-						<a href="index.html" class="nav-link active">ACCUEIL</a>
-					</li>
-					<li class="nav-item">
-						<a href="/assets/agent-r6.html" class="nav-link">AGENTS R6</a>
-					</li>
-					<li class="nav-item">
-						<a href="#" class="nav-link">NOS MEMBRES</a>
-					</li>
-					<li class="nav-item">
-						<a href="#" class="nav-link">Actualites R6</a>
-					</li>
-					<li class="nav-item">
-						<a href="#" class="nav-link">S'INSCRIRE</a>
-					</li>
-					<li class="nav-item">
-						<a href="#" class="nav-link">CONNEXION</a>
-					</li>
-				</ul>
+				<?php 
+				wp_nav_menu([
+					'theme_location' => 'header',
+					'container' => false,
+					'menu_class' => 'nav-list',
+					'items_wrap'           => '<ul class="nav-list"> </ul>',
+				]) 
+				?>
 			</nav>
 		</div>
 	</header>
