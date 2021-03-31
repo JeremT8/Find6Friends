@@ -17,14 +17,15 @@
 				<a href="<?= home_url('/') ?>" class="logo" title="<?= __("Homepage", "F6F")?>">
 				<img src="<?= get_theme_mod('logo') ?>" alt="">
 				</a>
+				<ul class="nav-list">
 				<?php 
 				wp_nav_menu([
 					'theme_location' => 'header',
 					'container' => false,
 					'menu_class' => 'nav-list',
-					'items_wrap'           => '<ul class="nav-list"> </ul>',
 				]) 
 				?>
+				</ul>
 			</nav>
 		</div>
 	</header>
