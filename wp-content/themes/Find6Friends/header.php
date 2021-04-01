@@ -7,25 +7,22 @@
 	<?php wp_head() ?>
 
 <body>
-	<header>
+<header>
 		<div class="container">
 			<nav class="nav">
 				<div class="menu-toggle">
 					<i class="fas fa-bars"></i>
 					<i class="fas fa-times"></i>
 				</div>
-				<a href="<?= home_url('/') ?>" class="logo" title="<?= __("Homepage", "F6F")?>">
-				<img src="<?= get_theme_mod('logo') ?>" alt="">
-				</a>
-				<ul class="nav-list">
-				<?php 
-				wp_nav_menu([
+				<a href="<?php home_url('/') ?>" class="logo" title="<?= __('Homepage', 'find6friends') ?>">
+				<img src="<?= get_theme_mod('logo') ?>" alt=""></a>
+				<?php wp_nav_menu(array (
 					'theme_location' => 'header',
-					'container' => false,
-					'menu_class' => 'nav-list',
-				]) 
+					'container' => false
+				))
 				?>
-				</ul>
 			</nav>
 		</div>
 	</header>
+<body>			
+	

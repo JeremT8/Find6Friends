@@ -1,3 +1,6 @@
+<?php wp_footer() ?>
+
+</body>
 <footer>
 		<div class="container">
 			<div class="back-to-top">
@@ -30,7 +33,5 @@
 			</div>
 		</div>
 	</footer>
-<?php wp_footer() ?>
-<script src="main.js"></script>
 </body>
 </html>
