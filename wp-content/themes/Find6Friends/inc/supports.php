@@ -1,7 +1,7 @@
 <?php 
 defined('ABSPATH') or die('');
 
-add_action('after_setupo_theme', function () {
+add_action('after_setup_theme', function () {
 	add_theme_support('title-tag');
 	add_theme_support('menus');
 	add_theme_support('html5');
