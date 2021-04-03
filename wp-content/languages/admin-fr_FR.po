@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.7.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-03-15 19:00:32+0000\n"
+"PO-Revision-Date: 2021-04-03 13:23:19+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2108,7 +2108,7 @@ msgstr "<a href=\"https://fr.wordpress.org/support/article/using-permalinks/\">D
 
 #: wp-admin/options-permalink.php:60
 msgid "<a href=\"https://wordpress.org/support/article/settings-permalinks-screen/\">Documentation on Permalinks Settings</a>"
-msgstr "<a href=\"https://wordpress.org/support/article/settings-permalinks-screen/\">Documentation sur les réglages des permaliens (en anglais)</a>"
+msgstr "<a href=\"https://fr.wordpress.org/support/article/settings-permalinks-screen/\">Documentation sur les réglages des permaliens</a>"
 
 #: wp-admin/update-core.php:970
 msgid "<a href=\"https://wordpress.org/support/article/dashboard-updates-screen/\">Documentation on Updating WordPress</a>"
@@ -2132,7 +2132,7 @@ msgstr "<a href=\"https://developer.wordpress.org/themes/basics/template-tags/\"
 
 #: wp-admin/theme-editor.php:53
 msgid "<a href=\"https://wordpress.org/support/article/editing-files/\">Documentation on Editing Files</a>"
-msgstr "<a href=\"https://wordpress.org/support/article/editing-files/\">Documentation sur la modification de fichiers (en anglais)</a>"
+msgstr "<a href=\"https://fr.wordpress.org/support/article/editing-files/\">Documentation sur la modification de fichiers</a>"
 
 #: wp-admin/theme-editor.php:52 wp-admin/themes.php:206
 msgid "<a href=\"https://wordpress.org/support/article/using-themes/\">Documentation on Using Themes</a>"
@@ -2170,7 +2170,7 @@ msgstr "https://fr.wordpress.org/support/article/giving-wordpress-its-own-direct
 
 #: wp-admin/options-general.php:48
 msgid "<a href=\"https://wordpress.org/support/article/settings-general-screen/\">Documentation on General Settings</a>"
-msgstr "<a href=\"https://wordpress.org/support/article/settings-general-screen/\">Documentation sur les réglages généraux (en anglais)</a>"
+msgstr "<a href=\"https://fr.wordpress.org/support/article/settings-general-screen/\">Documentation sur les réglages généraux</a>"
 
 #: wp-admin/includes/dashboard.php:1970
 msgid "https://wordpress.org/support/article/first-steps-with-wordpress/"
@@ -2256,7 +2256,7 @@ msgstr "Votre version de WordPress (%s) est à jour"
 #: wp-admin/includes/ms.php:1160 wp-admin/network/site-new.php:32
 #: wp-admin/network/sites.php:45
 msgid "<a href=\"https://wordpress.org/support/article/network-admin-sites-screen/\">Documentation on Site Management</a>"
-msgstr "<a href=\"https://wordpress.org/support/article/network-admin-sites-screen/\">Documentation sur la gestion des sites (en anglais)</a>"
+msgstr "<a href=\"https://fr.wordpress.org/support/article/network-admin-sites-screen/\">Documentation sur la gestion des sites</a>"
 
 #: wp-admin/includes/meta-boxes.php:807
 msgid "https://wordpress.org/support/article/introduction-to-blogging/#managing-comments"
@@ -2363,7 +2363,7 @@ msgstr "Vue globale du rapport sur les exportations."
 
 #: wp-admin/options-writing.php:52
 msgid "<a href=\"https://wordpress.org/support/article/settings-writing-screen/\">Documentation on Writing Settings</a>"
-msgstr "<a href=\"https://wordpress.org/support/article/settings-writing-screen/\">Documentation sur les réglages d’écriture (en anglais)</a>"
+msgstr "<a href=\"https://fr.wordpress.org/support/article/settings-writing-screen/\">Documentation sur les réglages d’écriture</a>"
 
 #: wp-admin/edit-tags.php:311
 msgid "<a href=\"https://wordpress.org/support/article/posts-tags-screen/\">Documentation on Tags</a>"
@@ -2388,7 +2388,7 @@ msgstr "<strong>Avertissement : </strong> ces pages ne doivent pas être les mê
 
 #: wp-admin/options-reading.php:52
 msgid "<a href=\"https://wordpress.org/support/article/settings-reading-screen/\">Documentation on Reading Settings</a>"
-msgstr "<a href=\"https://wordpress.org/support/article/settings-reading-screen/\">Documentation sur les réglages de lecture (en anglais)</a>"
+msgstr "<a href=\"https://fr.wordpress.org/support/article/settings-reading-screen/\">Documentation sur les réglages de lecture</a>"
 
 #: wp-admin/options-reading.php:34 wp-admin/options-reading.php:171
 msgid "https://wordpress.org/support/article/wordpress-feeds/"

@@ -31,15 +31,16 @@ add_action('init', function() {
         'item_scheduled'           => __('Operator scheduled.', 'operator'),
         'item_updated'             => __('Operator updated.', 'operator'),
 		],
+        'show-in-rest' => true,
         'has_archive' => true,
 		'public' => true,
 		'hierarchical' => false,
 		'exclude_from_search' => false,
-		'taxonomies' => ['Operator_type'],
+		'taxonomies' => ['operator_type', 'operator_arme'],
 		'supports' => ['title', 'editor', 'thumbnail']
 
 	]);
-	register_taxonomy('Operator_type', 'operator', [
+	register_taxonomy('operator_type', 'operator', [
 		'meta_box_cb' => 'post_categories_meta_box',
 		'labels' => [
 		'name'                       => __( 'Types', 'operator' ),
@@ -63,7 +64,35 @@ add_action('init', function() {
         'items_list'                 => __( 'Types list', 'operator' ),
         'most_used'                  => __( 'Most used', 'operator' ),
         'back_to_items'              => __( '&larr; Back to Types', 'operator' ),
-		]
+        ],
+        'rewrite' => true,
+	]);
+
+    register_taxonomy('operator_arme', 'operator', [
+		'meta_box_cb' => 'post_categories_meta_box',
+		'labels' => [
+		'name'                       => __( 'Armes', 'operator' ),
+        'singular_name'              => __( 'Arme', 'operator' ),
+        'search_items'               => __( 'Search armes', 'operator' ),
+        'popular_items'              => __( 'Popular armes', 'operator' ),
+        'all_items'                  => __( 'All armes', 'operator' ),
+        'parent_item'                => __( 'Parent Category', 'operator' ),
+        'parent_item_colon'          => __( 'Parent Category:', 'operator' ),
+        'edit_item'                  => __( 'Edit arme', 'operator' ),
+        'view_item'                  => __( 'View arme', 'operator' ),
+        'update_item'                => __( 'Update arme', 'operator' ),
+        'add_new_item'               => __( 'Add New arme', 'operator' ),
+        'new_item_name'              => __( 'New arme Name', 'operator' ),
+        'separate_items_with_commas' => __( 'Separate armes with commas', 'operator' ),
+        'add_or_remove_items'        => __( 'Add or remove armes', 'operator' ),
+        'choose_from_most_used'      => __( 'Choose from the most used armes', 'operator' ),
+        'not_found'                  => __( 'No armes found.', 'operator' ),
+        'no_terms'                   => __( 'No armes', 'operator' ),
+        'items_list_navigation'      => __( 'armes list navigation', 'operator' ),
+        'items_list'                 => __( 'armes list', 'operator' ),
+        'most_used'                  => __( 'Most used', 'operator' ),
+        'back_to_items'              => __( '&larr; Back to armes', 'operator' ),
+        ],
 	]);
 	
 });

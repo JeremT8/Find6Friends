@@ -31,14 +31,12 @@
 						<h1 class="headline headline-dark">concept</h1>
 					</div>
 					<p>
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, id dolores provident sint quia
-						ut voluptatum, fugit adipisci tempore mollitia alias debitis quasi. Blanditiis quia est amet et!
-						Vel, fugiat!
+						Inscrivez-vous, renseignez vos agents R6 préférés, trouver des amies avec lesquels vous pourrez jouer. Suivez l'actualité Rainbow Six, ou profitez de nos partenaires. 
 					</p>
-					<a href="" class="btn body-btn">A propos de nous</a>
+					<a href="" class="btn body-btn">Pour en savoir encore plus, cliquez ici !</a>
 				</div>
 				<div class="story-info-img animate-right">
-					<img src="assets/images/our-story.png" alt="">
+					<img src="../Find6Friends/assets/images/our-story.png" alt="">
 				</div>
 			</div>
 		</div>
@@ -79,6 +77,7 @@
 			<div class="global-headline">
 				<div class="animate-bottom">
 					<h1 class="headline">nos membres</h1>
+					
 				</div>
 			</div>
 		</div>

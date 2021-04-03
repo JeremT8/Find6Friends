@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.7.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-03-19 23:51:11+0000\n"
+"PO-Revision-Date: 2021-04-03 12:44:08+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2401,9 +2401,9 @@ msgid "Sorry, you are not allowed to delete revisions of this post."
 msgstr "Désolé, vous n’avez pas l’autorisation de supprimer les révisions de cet article."
 
 #. translators: %s: Custom field key.
-#: wp-includes/rest-api/fields/class-wp-rest-meta-fields.php:320
-#: wp-includes/rest-api/fields/class-wp-rest-meta-fields.php:334
-#: wp-includes/rest-api/fields/class-wp-rest-meta-fields.php:384
+#: wp-includes/rest-api/fields/class-wp-rest-meta-fields.php:324
+#: wp-includes/rest-api/fields/class-wp-rest-meta-fields.php:338
+#: wp-includes/rest-api/fields/class-wp-rest-meta-fields.php:388
 msgid "Could not update the meta value of %s in database."
 msgstr "La mise à jour de la valeur de la méta de %s dans la base de données n’est pas possible."
 
@@ -5743,8 +5743,8 @@ msgstr "À propos de ce site"
 
 #. translators: %s: Custom field key.
 #: wp-includes/rest-api/fields/class-wp-rest-meta-fields.php:227
-#: wp-includes/rest-api/fields/class-wp-rest-meta-fields.php:269
-#: wp-includes/rest-api/fields/class-wp-rest-meta-fields.php:364
+#: wp-includes/rest-api/fields/class-wp-rest-meta-fields.php:273
+#: wp-includes/rest-api/fields/class-wp-rest-meta-fields.php:368
 msgid "Sorry, you are not allowed to edit the %s custom field."
 msgstr "Désolé, vous n’avez pas l’autorisation de modifier le champ personnalisé %s."
 
@@ -6068,11 +6068,11 @@ msgstr "Le paramètre %1$s n’est pas de type %2$s."
 msgid "%1$s is not one of %2$s."
 msgstr "Le paramètre %1$s devrait avoir l’une de ces valeurs : %2$s."
 
-#: wp-includes/rest-api/fields/class-wp-rest-meta-fields.php:501
+#: wp-includes/rest-api/fields/class-wp-rest-meta-fields.php:505
 msgid "Meta fields."
 msgstr "Champs métas."
 
-#: wp-includes/rest-api/fields/class-wp-rest-meta-fields.php:238
+#: wp-includes/rest-api/fields/class-wp-rest-meta-fields.php:242
 msgid "Could not delete meta value from database."
 msgstr "La suppression de la valeur de la méta en base de données n’est pas possible."
 
