@@ -14,7 +14,7 @@
 					<i class="fas fa-bars"></i>
 					<i class="fas fa-times"></i>
 				</div>
-				<a href="<?php home_url('/') ?>" class="logo" title="<?= __('Homepage', 'find6friends') ?>">
+				<a href="#" class="logo" title="<?= __('Homepage', 'find6friends') ?>">
 				<img src="<?= get_theme_mod('logo') ?>" alt=""></a>
 				<?php 
 				if( is_user_logged_in() ) :
