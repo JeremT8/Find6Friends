@@ -52,9 +52,9 @@ if(!empty($_POST)){
             <form action="<?php echo $_SERVER['REQUEST_URI']; ?>" method="post" class="form-style">
                 <label for="user_login" style="text-align: center;">Nom d'utilisateur</label>
                 <input type="text" name="user_login" id="user_login" class="style-form" placeholder="Nom d'utilisateur"> 
-
+                
                 <label for="user_password" style="text-align: center;">Votre mot de passe</label>
-                <input type="text" name="user_password" id="user_password" class="style-form" placeholder="Votre mot de passe">
+                <input type="password" name="user_password" id="user_password" class="style-form" placeholder="Votre mot de passe">
 
 				<a class="link-to" href=""> INSCRIVEZ VOUS !</a>
 
