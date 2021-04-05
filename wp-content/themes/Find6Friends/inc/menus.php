@@ -14,7 +14,7 @@ function my_custom_menu_item($items)
     if(is_user_logged_in())
     {
         $user=wp_get_current_user();
-        $name=$user->display_name; // or user_login , user_firstname, user_lastname
+        $name=$user->display_name; 
         $items .= '<li style="text-transform:uppercase;text-decoration: none;
         color: whitesmoke;text-transform: uppercase;
         font-size: 1.6rem;
