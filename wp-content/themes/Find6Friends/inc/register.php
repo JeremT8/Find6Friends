@@ -21,4 +21,8 @@ function site_router(){
     }
 }
 
+
+
+
+
 // add_filter('show_admin_bar','__return_false'); 

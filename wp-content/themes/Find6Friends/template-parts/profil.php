@@ -30,41 +30,59 @@ if ($user->ID == 0) {
 	</div>
 </section>
 
+<?php
+$user = wp_get_current_user();
+$login = $user->login;
+
+?>
+
 <div class="single">
 	<div class="post">
 		<h1>Mes informations</h1>
 		<form class="form_profil" action="" method="post">
 			<p class="">
-				<label class="label_profil" for="account_display_name">Nom d'utilisateur&nbsp;<span class="required">*</span></label>
-				<input type="text" class="" name="account_display_name" id="account_display_name" value="jeremytillet8" placeholder="Nom affiché">
+				<label class="label_profil" for="account_display_name">Nom d'utilisateur&nbsp;<span class="required"></span></label>
+				<input type="text" class="" name="account_display_name" id="account_display_name" value="<?php
+					global $current_user;
+					if (isset($current_user)) {
+						echo $current_user->user_login;
+					}
+					?>" placeholder="Votre nom d'utilisateur" disabled="disabled">
 			</p>
 			<div class="clear"></div>
 
 			<p class="">
-				<label class="label_profil" for="account_display_name">Pseudo IG&nbsp;<span class="required">*</span></label>
-				<input type="text" class="" name="account_display_name" id="account_display_name" value="jeremytillet8" placeholder="Nom affiché">
+				<label class="label_profil" for="account_pseudo_ig">Pseudo IG&nbsp;<span class="required"></span></label>
+				<input type="text" class="" name="account_pseudo_ig" id="account_pseudo_ig" value="<?php global $current_user;
+					if (isset($current_user)) {
+						echo $current_user->pseudo_ig;
+					}
+					?>" disabled="disabled">
 			</p>
 			<div class="clear"></div>
 
 			<p class="">
-			<label class="label_profil" for="account_display_name">Plateforme sur laquelle vous jouez &nbsp;<span class="required">*</span></label>
-			<select name="plateform" id="plateform-select">
-				<option value="">--Selectionnez votre plateforme--</option>
-				<option value="dog">Playstation</option>
-				<option value="cat">Xbox</option>
-				<option value="hamster">PC</option>
-			</select>
+				<label class="label_profil" for="account_plateforme">Plateforme sur laquelle vous jouez le plus &nbsp;<span class="required">*</span></label>
+				<input type="text" class="" name="account_plateforme" id="account_plateforme" value="<?php global $current_user;
+					if (isset($current_user)) {
+						echo $current_user->plateforme;
+					}
+					?>" disabled="disabled">
 			</p>
 
 			<p class="">
 				<label class="label_profil" for="account_email">Adresse de messagerie&nbsp;<span class="required">*</span></label>
-				<input type="email" class="" name="account_email" id="account_email" autocomplete="email" value="jeremytillet8@gmail.com" placeholder="Adresse de messagerie">
+				<input type="email" class="" name="account_email" id="account_email" autocomplete="email" value="" placeholder="<?php
+					global $current_user;
+					if (isset($current_user)) {
+						echo $current_user->user_email;
+					}
+					?>" disabled="disabled">
 			</p>
 
-			
+
 			<p>
-				<input type="hidden" id="save-account-details-nonce" name="save-account-details-nonce" value="9d7f4fbe5b"><input type="hidden" name="_wp_http_referer" value="/profil/edit-account"> <button type="submit" class="btn-submit-form" name="save_account_details" value="Enregistrer les modifications">Enregistrer les modifications</button>
-				<input type="hidden" name="action" value="save_account_details">
+			<a href="http://localhost/Find6Friends/wp-login.php?action=logout"><input type="button" value="Se deconnecter" class="btn-submit-form"></a>
 			</p>
 
 		</form>
