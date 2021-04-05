@@ -29,14 +29,17 @@
 						<h2 class="sub-headline">
 							<span class="first-letter">L</span>es
 						</h2>
-						<h1 class="headline headline-dark">Attaquants</h1>
+						<h1 class="headline headline-dark">Defenseur</h1>
 					</div>
 					<?php while(have_posts()): the_post(); ?>
-					<div class="image-group padding-right animate-left">
-					<h3><?php the_title() ?></h3>
+					<div class="image-group animate-left">
+					<a class="link-to" href="<?php the_permalink() ?>"><h3 style="margin-bottom: 2px;"><?php the_title() ?></h3></a>
 					<a href="<?php the_permalink() ?>">
-						
-						<img src="<?php the_post_thumbnail() ?>" alt="">
+						<?php $img_attribs = wp_get_attachment_image_src( get_post_thumbnail_id(), 'thumbnail' ); // returns an array
+							if( $img_attribs ) {
+							?> 
+							<img src="<?php echo $img_attribs[0]; ?>" width="300" height="300">
+						<?php } ?>
 					</a>
 					</div>
 				</div>

@@ -64,18 +64,18 @@ if(!empty($_POST)){
 
             <form action="<?php echo $_SERVER['REQUEST_URI']; ?>" method="post" class="form-style">
                 <label for="user_login">Votre login</label>
-                <input type="text" value="<?php echo isset($d['user_login']) ? $d['user_login'] : ''; ?>" name="user_login" id="user_login"> 
+                <input class="style-form" type="text" value="<?php echo isset($d['user_login']) ? $d['user_login'] : ''; ?>" name="user_login" id="user_login" placeholder="Votre nom d'utilisateur"> 
 
                 <label for="user_email">Votre email</label>
-                <input type="text" value="<?php echo isset($d['user_email']) ? $d['user_email'] : ''; ?>" name="user_email" id="user_email"> 
+                <input class="style-form" type="text" value="<?php echo isset($d['user_email']) ? $d['user_email'] : ''; ?>" name="user_email" id="user_email" placeholder="Votre adresse email"> 
 
-                <label for="user_pass">Votre mot de pass</label>
-                <input type="password" value="<?php echo isset($d['user_pass']) ? $d['user_pass'] : ''; ?>" name="user_pass" id="user_pass">
+                <label for="user_pass">Votre mot de passe</label>
+                <input class="style-form" type="password" value="<?php echo isset($d['user_pass']) ? $d['user_pass'] : ''; ?>" name="user_pass" id="user_pass" placeholder="Saisissez un mot de passe">
 
-                <label for="user_pass2">Confirmez votre mot de pass</label>
-                <input type="password" value="<?php echo isset($d['user_pass2']) ? $d['user_pass2'] : ''; ?>" name="user_pass2" id="user_pass2">
+                <label for="user_pass2">Confirmez votre mot de passe</label>
+                <input class="style-form" type="password" value="<?php echo isset($d['user_pass2']) ? $d['user_pass2'] : ''; ?>" name="user_pass2" id="user_pass2" placeholder="Confirmez le mot de passe">
 
-				<a class="link-to" href=""> Deja inscrit ? Connectez vous !</a>
+				<a class="link-to" href="/Find6Friends/connexion"> Deja inscrit ? Connectez vous !</a>
 
                 <input type="submit" value="S'inscrire" class="btn-submit-form">
 

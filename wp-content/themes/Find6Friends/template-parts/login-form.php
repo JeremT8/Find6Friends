@@ -24,9 +24,9 @@ if(!empty($_POST)){
 <section class="hero" id="hero">
 		<div class="container">
 			<h2 class="sub-headline sub-headline-hero">
-				<span class="first-letter">f</span>il d'actualités
+				<span class="first-letter">V</span>ous êtes
 			</h2>
-			<h1 class="headline">de Rainbow six siege</h1>
+			<h1 class="headline">déjà de retour ♥</h1>
 			<div class="headline-description">
 				<div class="separator">
 					<div class="line line-left"></div>
@@ -34,8 +34,8 @@ if(!empty($_POST)){
 					<div class="line line-right"></div>
 				</div>
 				<div class="single-animation">
-					<h5>Parés pour rejoindres l'aventure</h5>
-					<a href="#" class="btn cta-btn">Cliques ici</a>
+					<h5>Retrouvez les dernieres news ! </h5>
+					<a href="#" class="btn cta-btn">C'est partie</a>
 				</div>
 			</div>
 		</div>
@@ -56,7 +56,7 @@ if(!empty($_POST)){
                 <label for="user_password" style="text-align: center;">Votre mot de passe</label>
                 <input type="password" name="user_password" id="user_password" class="style-form" placeholder="Votre mot de passe">
 
-				<a class="link-to" href=""> INSCRIVEZ VOUS !</a>
+				<a class="link-to" href="/Find6Friends/inscription"> INSCRIVEZ VOUS !</a>
 
                 <input type="submit" value="Se connecter" class="btn-submit-form">
 

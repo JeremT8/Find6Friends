@@ -66,6 +66,7 @@ add_action('init', function() {
         'back_to_items'              => __( '&larr; Back to Types', 'operator' ),
         ],
         'rewrite' => true,
+        'show_in_nav_menus' => true
 	]);
 
     register_taxonomy('operator_arme', 'operator', [

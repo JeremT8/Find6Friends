@@ -33,10 +33,7 @@
 					<p>
 						Inscrivez-vous, renseignez vos agents R6 préférés, trouver des amies avec lesquels vous pourrez jouer. Suivez l'actualité Rainbow Six, ou profitez de nos partenaires. 
 					</p>
-					<a href="" class="btn body-btn">Pour en savoir encore plus, cliquez ici !</a>
-				</div>
-				<div class="story-info-img animate-right">
-					<img src="../Find6Friends/assets/images/our-story.png" alt="">
+					<a href="inscription" class="btn body-btn">Pour en savoir encore plus, cliquez ici !</a>
 				</div>
 			</div>
 		</div>
@@ -51,22 +48,14 @@
 						<h2 class="sub-headline">
 							<span class="first-letter">L</span>es
 						</h2>
-						<h1 class="headline headline-dark">Agents r6</h1>
-						<div class="dice"><i class="fas fa-dice-six-six"></i></div>
+						<h1 class="headline headline-dark">opérateurs de R6S</h1>
 					</div>
-					<div class="image-group padding-right animate-left">
-						<img src="assets/images/bandit.jpg" alt="">
-						<img src="assets/images/Thermite.jpg" alt="">
-						<img src="assets/images/valkyrie.jpg" alt="">
-						<img src="assets/images/thatcher.jpg" alt="">
-					</div>
-					<br>
+					
 					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eos illo officiis. Magni
-						labore repudiandae praesentium optio consequuntur molestiae vero accusantium cupiditate,
-						sapiente, id repellat. Quis nam ad aut expedita!
+					Découvrez la personnalité et la spécialité uniques de chaque opérateur dans Tom Clancy's Rainbow Six Siege.
 					</p>
-					<a href="agent-r6.html" class="btn body-btn">Voir tous les agents</a>
+					<a href="operator_type/assaillant" class="btn body-btn">Voir tous les operateurs d'attaque</a>
+					<a href="operator_type/defenseur" class="btn body-btn">Voir tous les operateurs de défense</a>
 				</div>
 			</div>
 		</div>
