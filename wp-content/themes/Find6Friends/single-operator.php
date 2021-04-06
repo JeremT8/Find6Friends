@@ -18,8 +18,14 @@
 			</div>
 		</div>
 	</section>
-	<div class="title-post-type">
-	<?php the_title() ?>
+
+
+	<div class="title-post-type-single">
+	<div>
+	<?php the_content() ?>
+	</div>
+
+
 	</div>
 
 <?php get_footer() ?>

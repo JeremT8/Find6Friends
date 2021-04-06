@@ -12,8 +12,8 @@
 				<div class="line line-right"></div>
 			</div>
 			<div class="single-animation">
-				<h5>Parés pour rejoindres l'aventure</h5>
-				<a href="#" class="btn cta-btn">Cliques ici</a>
+				<h5>Pour retourner a l'accueil du site</h5>
+				<a href="<?php home_url('/') ?>" class="btn cta-btn">Cliques ici</a>
 			</div>
 		</div>
 	</div>

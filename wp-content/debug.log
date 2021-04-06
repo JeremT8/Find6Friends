@@ -1,0 +1,87 @@
+[06-Apr-2021 12:03:28 UTC] PHP Warning:  Undefined array key "plateform" in C:\xampp\htdocs\Find6Friends\wp-content\themes\Find6Friends\template-parts\register-form.php on line 39
+[06-Apr-2021 12:03:30 UTC] PHP Fatal error:  Uncaught Error: Cannot use a scalar value as an array in C:\xampp\htdocs\Find6Friends\wp-includes\user.php:51
+Stack trace:
+#0 C:\xampp\htdocs\Find6Friends\wp-content\themes\Find6Friends\template-parts\register-form.php(48): wp_signon(23)
+#1 C:\xampp\htdocs\Find6Friends\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Find6Friends\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Find6Friends\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\Find6Friends\wp-includes\user.php on line 51
+[06-Apr-2021 12:43:10 UTC] PHP Warning:  Undefined array key "plateform" in C:\xampp\htdocs\Find6Friends\wp-content\themes\Find6Friends\template-parts\register-form.php on line 39
+[06-Apr-2021 12:43:12 UTC] PHP Fatal error:  Uncaught Error: Cannot use a scalar value as an array in C:\xampp\htdocs\Find6Friends\wp-includes\user.php:51
+Stack trace:
+#0 C:\xampp\htdocs\Find6Friends\wp-content\themes\Find6Friends\template-parts\register-form.php(48): wp_signon(24)
+#1 C:\xampp\htdocs\Find6Friends\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Find6Friends\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Find6Friends\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\Find6Friends\wp-includes\user.php on line 51
+[06-Apr-2021 12:44:24 UTC] PHP Warning:  Undefined array key "plateform" in C:\xampp\htdocs\Find6Friends\wp-content\themes\Find6Friends\template-parts\register-form.php on line 39
+[06-Apr-2021 12:44:38 UTC] PHP Warning:  Undefined array key "plateform" in C:\xampp\htdocs\Find6Friends\wp-content\themes\Find6Friends\template-parts\register-form.php on line 39
+[06-Apr-2021 12:44:40 UTC] PHP Fatal error:  Uncaught Error: Cannot use a scalar value as an array in C:\xampp\htdocs\Find6Friends\wp-includes\user.php:51
+Stack trace:
+#0 C:\xampp\htdocs\Find6Friends\wp-content\themes\Find6Friends\template-parts\register-form.php(48): wp_signon(25)
+#1 C:\xampp\htdocs\Find6Friends\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Find6Friends\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Find6Friends\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\Find6Friends\wp-includes\user.php on line 51
+[06-Apr-2021 12:45:40 UTC] PHP Warning:  Undefined array key "plateform" in C:\xampp\htdocs\Find6Friends\wp-content\themes\Find6Friends\template-parts\register-form.php on line 39
+[06-Apr-2021 12:45:45 UTC] PHP Warning:  Undefined array key "plateform" in C:\xampp\htdocs\Find6Friends\wp-content\themes\Find6Friends\template-parts\register-form.php on line 39
+[06-Apr-2021 12:45:47 UTC] PHP Fatal error:  Uncaught Error: Cannot use a scalar value as an array in C:\xampp\htdocs\Find6Friends\wp-includes\user.php:51
+Stack trace:
+#0 C:\xampp\htdocs\Find6Friends\wp-content\themes\Find6Friends\template-parts\register-form.php(48): wp_signon(26)
+#1 C:\xampp\htdocs\Find6Friends\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Find6Friends\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Find6Friends\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\Find6Friends\wp-includes\user.php on line 51
+[06-Apr-2021 13:06:27 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\xampp\htdocs\Find6Friends\wp-includes\class-wp-list-util.php on line 157
+[06-Apr-2021 13:12:09 UTC] PHP Warning:  Undefined property: ML_list_field::$list_id in C:\xampp\htdocs\Find6Friends\wp-content\plugins\members-list\admin\view\list-field.php on line 185
+[06-Apr-2021 13:14:20 UTC] PHP Parse error:  syntax error, unexpected token "?" in C:\xampp\htdocs\Find6Friends\wp-content\themes\Find6Friends\index.php on line 83
+[06-Apr-2021 13:16:31 UTC] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\Find6Friends\wp-content\themes\Find6Friends\index.php on line 86
+[06-Apr-2021 14:00:24 UTC] PHP Warning:  Undefined array key "pseudo_ig" in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 67
+[06-Apr-2021 14:00:24 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 67
+[06-Apr-2021 14:00:24 UTC] PHP Warning:  Undefined array key "plateforme" in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 70
+[06-Apr-2021 14:00:24 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 70
+[06-Apr-2021 14:00:24 UTC] PHP Warning:  Undefined array key "pseudo_ig" in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 67
+[06-Apr-2021 14:00:24 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 67
+[06-Apr-2021 14:00:24 UTC] PHP Warning:  Undefined array key "plateforme" in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 70
+[06-Apr-2021 14:00:24 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 70
+[06-Apr-2021 14:00:24 UTC] PHP Warning:  Undefined array key "pseudo_ig" in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 67
+[06-Apr-2021 14:00:24 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 67
+[06-Apr-2021 14:00:24 UTC] PHP Warning:  Undefined array key "plateforme" in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 70
+[06-Apr-2021 14:00:24 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 70
+[06-Apr-2021 14:00:24 UTC] PHP Warning:  Undefined array key "pseudo_ig" in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 67
+[06-Apr-2021 14:00:24 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 67
+[06-Apr-2021 14:00:24 UTC] PHP Warning:  Undefined array key "plateforme" in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 70
+[06-Apr-2021 14:00:24 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 70
+[06-Apr-2021 14:00:24 UTC] PHP Warning:  Undefined array key "pseudo_ig" in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 67
+[06-Apr-2021 14:00:24 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 67
+[06-Apr-2021 14:00:24 UTC] PHP Warning:  Undefined array key "plateforme" in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 70
+[06-Apr-2021 14:00:24 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 70
+[06-Apr-2021 14:00:30 UTC] PHP Warning:  Undefined array key "pseudo_ig" in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 67
+[06-Apr-2021 14:00:30 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 67
+[06-Apr-2021 14:00:30 UTC] PHP Warning:  Undefined array key "plateforme" in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 70
+[06-Apr-2021 14:00:30 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 70
+[06-Apr-2021 14:02:01 UTC] PHP Warning:  Undefined array key "plateform" in C:\xampp\htdocs\Find6Friends\wp-content\themes\Find6Friends\template-parts\register-form.php on line 39
+[06-Apr-2021 14:02:03 UTC] PHP Fatal error:  Uncaught Error: Cannot use a scalar value as an array in C:\xampp\htdocs\Find6Friends\wp-includes\user.php:51
+Stack trace:
+#0 C:\xampp\htdocs\Find6Friends\wp-content\themes\Find6Friends\template-parts\register-form.php(48): wp_signon(27)
+#1 C:\xampp\htdocs\Find6Friends\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Find6Friends\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Find6Friends\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\Find6Friends\wp-includes\user.php on line 51
+[06-Apr-2021 14:02:21 UTC] PHP Warning:  Undefined array key "pseudo_ig" in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 67
+[06-Apr-2021 14:02:21 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 67
+[06-Apr-2021 14:02:21 UTC] PHP Warning:  Undefined array key "plateforme" in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 70
+[06-Apr-2021 14:02:21 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 70
+[06-Apr-2021 14:20:24 UTC] PHP Warning:  Undefined array key "elo" in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 95
+[06-Apr-2021 14:20:24 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 95
+[06-Apr-2021 14:20:24 UTC] PHP Warning:  Undefined array key "elo" in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 95
+[06-Apr-2021 14:20:24 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 95
+[06-Apr-2021 14:20:41 UTC] PHP Warning:  Undefined array key "elo" in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 95
+[06-Apr-2021 14:20:41 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 95
+[06-Apr-2021 14:24:00 UTC] PHP Warning:  Attempt to read property "labels" on bool in C:\xampp\htdocs\Find6Friends\wp-includes\general-template.php on line 3155
+[06-Apr-2021 14:24:00 UTC] PHP Warning:  Attempt to read property "singular_name" on null in C:\xampp\htdocs\Find6Friends\wp-includes\general-template.php on line 3155

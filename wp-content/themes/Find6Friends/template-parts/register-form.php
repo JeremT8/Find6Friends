@@ -13,7 +13,7 @@
             </div>
             <div class="single-animation">
                 <h5>Vous possédez deja un compte ?</h5>
-                <a href="#" class="btn cta-btn">Connectez-vous !</a>
+                <a href="connexion" class="btn cta-btn">Connectez-vous !</a>
             </div>
         </div>
     </div>
@@ -34,7 +34,9 @@ if (!empty($_POST)) {
                 'user_login' => $d['user_login'],
                 'user_pass'  => $d['user_pass'],
                 'user_email' => $d['user_email'],
-                'user_registered' => date('Y-m-d H:i:s')
+                'user_registered' => date('Y-m-d H:i:s'),
+                'pseudo_ig' => $d['pseudo_ig'],
+                'plateform' => $d['plateform'],
             ));
             if (is_wp_error($user)) {
                 $error = $user->get_error_message();
@@ -71,8 +73,8 @@ if (!empty($_POST)) {
             <label for="pseudo_ig">Votre pseudo IG</label>
             <input class="style-form" type="text" value="<?php echo isset($d['pseudo_ig']) ? $d['pseudo_ig'] : ''; ?>" name="pseudo_ig" id="pseudo_ig" placeholder="Votre pseudo IG">
             
-            <span class="select-plateform"> Plateforme sur laquelle vous jouez ? <br>
-            <select class="ui search dropdown" name="plateform">
+            <span class="select-plateforme"> Plateforme sur laquelle vous jouez ? <br>
+            <select class="ui search dropdown" name="plateforme" value="<?php echo isset($d['plateforme']) ? $d['plateforme'] : ''; ?>" name="plateforme" id="plateforme">
                             <option value="">Select</option>
                             <option value="playstation">Playstation</option>
                             <option value="xbox">Xbox</option>

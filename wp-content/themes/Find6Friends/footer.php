@@ -10,9 +10,10 @@
 				<div class="footer-content-about animate-top">
 					<h4>A propos de Find6Friends</h4>
 					<div class="dice"><i class="fas fa-dice-six-six"></i></div>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nam eligendi rerum
-						voluptatum qui error nemo totam facere sint illum. A voluptatem rerum sunt exercitationem,
-						beatae ratione necessitatibus ipsam suscipit?</p>
+					<p>Site communautaire pour rencontrez des joueurs de Rainbow Six Siege, jeu developpé par Ubisoft. <br>
+						Apprenez en plus sur les operateurs, leur biographie et bien d'autre encore, ainsi que comment les joués. <br>
+						Bonne navigation sur Find6Friends.
+					</p>
 				</div>
 				<div class="footer-content-divider animate-bottom">
 					<div class="social-media">

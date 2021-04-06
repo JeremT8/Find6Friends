@@ -21,6 +21,11 @@ function site_router(){
     }
 }
 
+add_action('wp_logout','ps_redirect_after_logout');
+function ps_redirect_after_logout(){
+         wp_redirect( home_url('/') );
+         exit();
+}
 
 
 

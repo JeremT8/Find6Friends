@@ -14,7 +14,7 @@
 				</div>
 				<div class="single-animation">
 					<h5>Parés pour rejoindres l'aventure</h5>
-					<a href="#" class="btn cta-btn">Cliques ici</a>
+					<a href="inscription" class="btn cta-btn">Cliques ici</a>
 				</div>
 			</div>
 		</div>
@@ -65,18 +65,36 @@
 		<div class="container">
 			<div class="global-headline">
 				<div class="animate-bottom">
-					<h1 class="headline">nos membres</h1>
-					
+					<h1 class="headline">nos membres <br> les plus actifs</h1>
+
+						
 				</div>
+				
 			</div>
+			
+						
 		</div>
+		
 	</section>
+	
 	<!-- OUS MEMBERS ENDS-->
-	<div class="image-group padding-right animate-left member-list">
-		<img src="assets/images/avatar.jpg" alt="">
-		<img src="assets/images/avatar.jpg" alt="">
-		<img src="assets/images/avatar.jpg" alt="">
-		<img src="assets/images/avatar.jpg" alt="">
+	<div class="animate-left member-list">
+		<?php $users = get_users();
+						foreach( $users as $user ) { ?>
+							<div class="member-info">
+								<?php echo get_avatar( get_current_user_id(), 32 ); ?>
+							<p class="list-member list-member-username">	 Nom d'utilisateur :  <br><span class="result-member"><?php echo $user->display_name; ?></span> </p>
+							<p class="list-member list-member-pseudo">	 Pseudo IG :  <br> <span class="result-member"><?php echo $user->pseudo_ig; ?></span></p>
+							<p class="list-member list-member-plateform">	 Plateforme :  <span class="result-member"><br> <?php echo $user->plateforme; ?></span></p>
+							<p class="list-member list-member-elo">	 Rang IG :  <span class="result-member"><br> <?php echo $user->elo; ?></span></p>
+									
+							</div>
+ 
+							<?php	
+							}
+						
+							?>
+
 	</div>
 	
 	<?php get_footer() ?>

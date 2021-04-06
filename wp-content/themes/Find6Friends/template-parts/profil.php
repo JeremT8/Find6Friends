@@ -13,9 +13,9 @@ if ($user->ID == 0) {
 <section class="hero" id="hero">
 	<div class="container">
 		<h2 class="sub-headline sub-headline-hero">
-			<span class="first-letter">f</span>il d'actualités
+			<span class="first-letter">V</span>otre
 		</h2>
-		<h1 class="headline">de Rainbow six siege</h1>
+		<h1 class="headline">Espace membres</h1>
 		<div class="headline-description">
 			<div class="separator">
 				<div class="line line-left"></div>
@@ -23,8 +23,8 @@ if ($user->ID == 0) {
 				<div class="line line-right"></div>
 			</div>
 			<div class="single-animation">
-				<h5>Parés pour rejoindres l'aventure</h5>
-				<a href="#" class="btn cta-btn">Cliques ici</a>
+				<h5>Pour decouvrir l'actualités R6S</h5>
+				<a href="actualites-r6s" class="btn cta-btn">Cliques ici</a>
 			</div>
 		</div>
 	</div>
@@ -63,7 +63,7 @@ $login = $user->login;
 
 			<p class="">
 				<label class="label_profil" for="account_plateforme">Plateforme sur laquelle vous jouez le plus &nbsp;<span class="required">*</span></label>
-				<input type="text" class="" name="account_plateforme" id="account_plateforme" value="<?php global $current_user;
+				<input type="text" style="text-transform: uppercase;" name="account_plateforme" id="account_plateforme" value="<?php global $current_user;
 					if (isset($current_user)) {
 						echo $current_user->plateforme;
 					}
@@ -71,7 +71,16 @@ $login = $user->login;
 			</p>
 
 			<p class="">
-				<label class="label_profil" for="account_email">Adresse de messagerie&nbsp;<span class="required">*</span></label>
+				<label class="label_profil" for="account_plateforme">Rank &nbsp;<span class="required">*</span></label>
+				<input type="text" style="text-transform: uppercase;" name="account_plateforme" id="account_plateforme" value="<?php global $current_user;
+					if (isset($current_user)) {
+						echo $current_user->elo;
+					}
+					?>"disabled="disabled">
+			</p>
+
+			<p class="">
+				<label class="label_profil" for="account_email">Adresse de messagerie&nbsp;<span class="required"></span></label>
 				<input type="email" class="" name="account_email" id="account_email" autocomplete="email" value="" placeholder="<?php
 					global $current_user;
 					if (isset($current_user)) {
@@ -82,7 +91,7 @@ $login = $user->login;
 
 
 			<p>
-			<a href="http://localhost/Find6Friends/wp-login.php?action=logout"><input type="button" value="Se deconnecter" class="btn-submit-form"></a>
+			<a href="<?php echo wp_logout_url() ?>"><input type="button" value="Se deconnecter" class="btn-submit-form"></a>
 			</p>
 
 		</form>
