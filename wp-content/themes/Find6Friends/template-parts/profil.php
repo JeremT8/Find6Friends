@@ -38,7 +38,6 @@ $login = $user->login;
 
 <div class="single">
 	<div class="post">
-		<h1>Mes informations</h1>
 		<form class="form_profil" action="" method="post">
 			<p class="">
 				<label class="label_profil" for="account_display_name">Nom d'utilisateur&nbsp;<span class="required"></span></label>

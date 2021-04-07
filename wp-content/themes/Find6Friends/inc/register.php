@@ -30,4 +30,4 @@ function ps_redirect_after_logout(){
 
 
 
-// add_filter('show_admin_bar','__return_false'); 
+add_filter('show_admin_bar','__return_false'); 

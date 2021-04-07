@@ -79,22 +79,30 @@
 	
 	<!-- OUS MEMBERS ENDS-->
 	<div class="animate-left member-list">
-		<?php $users = get_users();
-						foreach( $users as $user ) { ?>
-							<div class="member-info">
-								<?php echo get_avatar( get_current_user_id(), 32 ); ?>
-							<p class="list-member list-member-username">	 Nom d'utilisateur :  <br><span class="result-member"><?php echo $user->display_name; ?></span> </p>
-							<p class="list-member list-member-pseudo">	 Pseudo IG :  <br> <span class="result-member"><?php echo $user->pseudo_ig; ?></span></p>
-							<p class="list-member list-member-plateform">	 Plateforme :  <span class="result-member"><br> <?php echo $user->plateforme; ?></span></p>
-							<p class="list-member list-member-elo">	 Rang IG :  <span class="result-member"><br> <?php echo $user->elo; ?></span></p>
-									
-							</div>
- 
-							<?php	
-							}
+	<?php $users = get_users();
+shuffle($users);
+$selectedUsers = [];
+for($i=0; $i<2 ; $i++) {
+  $selectedUsers[]=$users[$i];
+}
+			foreach( $selectedUsers as $user  ) { ?>
+				<div class="member-info">
+					<?php echo get_avatar( get_current_user_id(), 32 ); ?>
+				<p class="list-member list-member-username">	 Nom d'utilisateur :  <br><span class="result-member"><?php echo $user->display_name; ?></span> </p>
+				<p class="list-member list-member-pseudo">	 Pseudo IG :  <br> <span class="result-member"><?php echo $user->pseudo_ig; ?></span></p>
+				<p class="list-member list-member-plateform">	 Plateforme :  <span class="result-member"><br> <?php echo $user->plateforme; ?></span></p>
+				<p class="list-member list-member-elo">	 Rang IG :  <span class="result-member"><br> <?php echo $user->elo; ?></span></p>
+				</div>
+				<?php	
+				}
+				?>
+				</div>
+				<div class="navigate-to-member">
+					<a href="membres" class="btn body-btn">Voir tous les membres</a>
+				</div>
+				
 						
-							?>
 
-	</div>
+	
 	
 	<?php get_footer() ?>

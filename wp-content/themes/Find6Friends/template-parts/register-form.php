@@ -34,7 +34,6 @@ if (!empty($_POST)) {
                 'user_login' => $d['user_login'],
                 'user_pass'  => $d['user_pass'],
                 'user_email' => $d['user_email'],
-                'user_registered' => date('Y-m-d H:i:s'),
                 'pseudo_ig' => $d['pseudo_ig'],
                 'plateform' => $d['plateforme'],
             ));
@@ -79,6 +78,19 @@ if (!empty($_POST)) {
                             <option value="playstation">Playstation</option>
                             <option value="xbox">Xbox</option>
                             <option value="pc">Pc</option>
+            </select>
+            </span>
+
+            <span class="select-elo"> elo sur laquelle vous jouez ? <br>
+            <select for="elo" class="ui search dropdown" name="elo" value="<?php echo isset($d['elo']) ? $d['elo'] : ''; ?>" name="elo" id="elo">>
+                <option value="non-classe">Non-Classe</option>
+                <option value="cuivre">Cuivre</option>
+                <option value="bronze">Bronze</option>
+                <option value="argent">Argent</option>
+                <option value="or">Or</option>
+                <option value="platine">Platine</option>
+                <option value="diamant">Diamant</option>
+                <option value="champion">Champion</option>
             </select>
             </span>
 
