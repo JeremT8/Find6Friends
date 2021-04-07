@@ -95,3 +95,18 @@ Stack trace:
   thrown in C:\xampp\htdocs\Find6Friends\wp-includes\user.php on line 51
 [07-Apr-2021 09:18:18 UTC] PHP Warning:  Attempt to read property "labels" on bool in C:\xampp\htdocs\Find6Friends\wp-includes\general-template.php on line 3155
 [07-Apr-2021 09:18:18 UTC] PHP Warning:  Attempt to read property "singular_name" on null in C:\xampp\htdocs\Find6Friends\wp-includes\general-template.php on line 3155
+[07-Apr-2021 14:32:18 UTC] PHP Warning:  Undefined array key "pseudo_ig" in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 89
+[07-Apr-2021 14:32:18 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 89
+[07-Apr-2021 14:32:18 UTC] PHP Warning:  Undefined array key "plateforme" in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 92
+[07-Apr-2021 14:32:18 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 92
+[07-Apr-2021 14:32:18 UTC] PHP Warning:  Undefined array key "elo" in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 95
+[07-Apr-2021 14:32:18 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 95
+[07-Apr-2021 14:32:19 UTC] PHP Notice: A feed could not be found at `https://feeds.feedburner.com/wpfr`; the status code is `200` and content-type is `text/html; charset=UTF-8` in C:\xampp\htdocs\Find6Friends\wp-includes\class-simplepie.php on line 1728
+[07-Apr-2021 14:32:41 UTC] PHP Fatal error:  Uncaught Error: Cannot use a scalar value as an array in C:\xampp\htdocs\Find6Friends\wp-includes\user.php:51
+Stack trace:
+#0 C:\xampp\htdocs\Find6Friends\wp-content\themes\Find6Friends\template-parts\register-form.php(48): wp_signon(29)
+#1 C:\xampp\htdocs\Find6Friends\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Find6Friends\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Find6Friends\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\Find6Friends\wp-includes\user.php on line 51
