@@ -36,7 +36,7 @@ if (!empty($_POST)) {
                 'user_email' => $d['user_email'],
                 'user_registered' => date('Y-m-d H:i:s'),
                 'pseudo_ig' => $d['pseudo_ig'],
-                'plateform' => $d['plateform'],
+                'plateform' => $d['plateforme'],
             ));
             if (is_wp_error($user)) {
                 $error = $user->get_error_message();
@@ -74,7 +74,7 @@ if (!empty($_POST)) {
             <input class="style-form" type="text" value="<?php echo isset($d['pseudo_ig']) ? $d['pseudo_ig'] : ''; ?>" name="pseudo_ig" id="pseudo_ig" placeholder="Votre pseudo IG">
             
             <span class="select-plateforme"> Plateforme sur laquelle vous jouez ? <br>
-            <select class="ui search dropdown" name="plateforme" value="<?php echo isset($d['plateforme']) ? $d['plateforme'] : ''; ?>" name="plateforme" id="plateforme">
+            <select for="plateforme" class="ui search dropdown" name="plateforme" value="<?php echo isset($d['plateforme']) ? $d['plateforme'] : ''; ?>" name="plateforme" id="plateforme">
                             <option value="">Select</option>
                             <option value="playstation">Playstation</option>
                             <option value="xbox">Xbox</option>
@@ -93,7 +93,7 @@ if (!empty($_POST)) {
             <input type="submit" value="S'inscrire" class="btn-submit-form">
 
         </form>
-
+                
     </div>
 </div>
 

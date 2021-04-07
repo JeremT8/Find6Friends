@@ -85,3 +85,13 @@ Stack trace:
 [06-Apr-2021 14:20:41 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Find6Friends\wp-content\plugins\user_meta\user_meta.php on line 95
 [06-Apr-2021 14:24:00 UTC] PHP Warning:  Attempt to read property "labels" on bool in C:\xampp\htdocs\Find6Friends\wp-includes\general-template.php on line 3155
 [06-Apr-2021 14:24:00 UTC] PHP Warning:  Attempt to read property "singular_name" on null in C:\xampp\htdocs\Find6Friends\wp-includes\general-template.php on line 3155
+[07-Apr-2021 09:14:06 UTC] PHP Fatal error:  Uncaught Error: Cannot use a scalar value as an array in C:\xampp\htdocs\Find6Friends\wp-includes\user.php:51
+Stack trace:
+#0 C:\xampp\htdocs\Find6Friends\wp-content\themes\Find6Friends\template-parts\register-form.php(48): wp_signon(28)
+#1 C:\xampp\htdocs\Find6Friends\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Find6Friends\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Find6Friends\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\Find6Friends\wp-includes\user.php on line 51
+[07-Apr-2021 09:18:18 UTC] PHP Warning:  Attempt to read property "labels" on bool in C:\xampp\htdocs\Find6Friends\wp-includes\general-template.php on line 3155
+[07-Apr-2021 09:18:18 UTC] PHP Warning:  Attempt to read property "singular_name" on null in C:\xampp\htdocs\Find6Friends\wp-includes\general-template.php on line 3155
