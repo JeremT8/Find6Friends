@@ -69,8 +69,8 @@ if (!empty($_POST)) {
             <label for="user_email">Votre email</label>
             <input class="style-form" type="text" value="<?php echo isset($d['user_email']) ? $d['user_email'] : ''; ?>" name="user_email" id="user_email" placeholder="Votre adresse email">
 
-            <label for="pseudo_ig">Votre pseudo IG</label>
-            <input class="style-form" type="text" value="<?php echo isset($d['pseudo_ig']) ? $d['pseudo_ig'] : ''; ?>" name="pseudo_ig" id="pseudo_ig" placeholder="Votre pseudo IG">
+            <label for="pseudo_ig">Votre pseudo de jeu</label>
+            <input class="style-form" type="text" value="<?php echo isset($d['pseudo_ig']) ? $d['pseudo_ig'] : ''; ?>" name="pseudo_ig" id="pseudo_ig" placeholder="Votre pseudo de jeu">
             
             <span class="select-plateforme"> Plateforme sur laquelle vous jouez ? <br>
             <select for="plateforme" class="ui search dropdown" name="plateforme" value="<?php echo isset($d['plateforme']) ? $d['plateforme'] : ''; ?>" name="plateforme" id="plateforme">
@@ -108,8 +108,6 @@ if (!empty($_POST)) {
                 
     </div>
 </div>
-
-
 
 
 
