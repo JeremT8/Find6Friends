@@ -24,4 +24,12 @@ function wpsites_query( $query ) {
 	}
 	add_action( 'pre_get_posts', 'wpsites_query' );
 
-	
+
+	// Modifier l'URL du logo de connexion sur la page d'administration 
+
+add_filter( 'login_headerurl', 'wpm_custom_login_url' );
+
+function wpm_custom_login_url($url) {
+// On définit la nouvelle URL du lien ici
+  return 'http://localhost/Find6Friends/';
+}

@@ -2,7 +2,7 @@
 <section class="hero" id="hero">
 	<div class="container">
 		<h2 class="sub-headline sub-headline-hero">
-			<span class="first-letter">f</span>il d'actualités
+			<span class="first-letter">L</span>a defense
 		</h2>
 		<h1 class="headline">de Rainbow six siege</h1>
 		<div class="headline-description">
@@ -12,8 +12,8 @@
 				<div class="line line-right"></div>
 			</div>
 			<div class="single-animation">
-				<h5>Parés pour rejoindres l'aventure</h5>
-				<a href="#" class="btn cta-btn">Cliques ici</a>
+				<h5>Tu es plus a l'aise en attaque ?</h5>
+				<a href="/Find6Friends/operator_type/assaillant/" class="btn cta-btn">Cliques ici</a>
 			</div>
 		</div>
 	</div>

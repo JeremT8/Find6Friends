@@ -35,7 +35,7 @@ if(!empty($_POST)){
 				</div>
 				<div class="single-animation">
 					<h5>Retrouvez les dernieres news ! </h5>
-					<a href="#" class="btn cta-btn">C'est partie</a>
+					<a href="./actualites-r6s" class="btn cta-btn">C'est partie</a>
 				</div>
 			</div>
 		</div>
