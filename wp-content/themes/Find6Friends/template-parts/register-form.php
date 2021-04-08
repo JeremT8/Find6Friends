@@ -70,7 +70,7 @@ if (!empty($_POST)) {
             <input class="style-form" type="text" value="<?php echo isset($d['user_email']) ? $d['user_email'] : ''; ?>" name="user_email" id="user_email" placeholder="Votre adresse email">
 
             <label for="pseudo_ig">Votre pseudo de jeu</label>
-            <input class="style-form" type="text" value="<?php echo isset($d['pseudo_ig']) ? $d['pseudo_ig'] : ''; ?>" name="pseudo_ig" id="pseudo_ig" placeholder="Votre pseudo de jeu">
+            <input class="style-form" type="text" value="<?php get_the_author_meta( 'pseudo_ig', $user->ID ) ?>" name="pseudo_ig" id="pseudo_ig" placeholder="Votre pseudo de jeu">
             
             <span class="select-plateforme"> Plateforme sur laquelle vous jouez ? <br>
             <select for="plateforme" class="ui search dropdown" name="plateforme" value="<?php echo isset($d['plateforme']) ? $d['plateforme'] : ''; ?>" name="plateforme" id="plateforme">

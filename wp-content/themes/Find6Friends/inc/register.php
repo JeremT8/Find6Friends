@@ -27,6 +27,14 @@ function ps_redirect_after_logout(){
          exit();
 }
 
+add_action('user_register', 'addMyCustomMeta');    
+add_action('personal_options_update', 'addMyCustomMeta' );    
+add_action('edit_user_profile_update','addMyCustomMeta' );    
+function addMyCustomMeta( $user_id ) {    
+           update_user_meta( $user_id, 'pseudo_ig', $_POST['pseudo_ig'] ); 
+           update_user_meta( $user_id, 'plateforme', $_POST['plateforme'] ); 
+           update_user_meta( $user_id, 'elo', $_POST['elo'] ); 
+}
 
 
 

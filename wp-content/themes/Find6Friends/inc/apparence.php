@@ -14,3 +14,13 @@ add_action('customize_register', function (WP_Customize_Manager $manager) {
         'section' => 'F6F_appearance'
     ]));
 });
+
+function my_favicon(){
+    ?>
+
+<link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_stylesheet_directory_uri();?>../assets/images/F.jpg">
+<?php
+
+  }
+
+  add_action('wp_head', 'my_favicon');

@@ -10,7 +10,7 @@ add_action('after_setup_theme', function () {
 
 add_action( 'current_screen', 'redirect_non_authorized_user' );
 	function redirect_non_authorized_user() {
-		// Si t'es pas admin, tu vires
+		// Si t'es pas admin , tu n'accedes pas
 		if ( is_user_logged_in() && ! current_user_can( 'manage_options' ) ) {
 			wp_redirect( home_url( '/' ) );
 			exit();
@@ -30,6 +30,5 @@ function wpsites_query( $query ) {
 add_filter( 'login_headerurl', 'wpm_custom_login_url' );
 
 function wpm_custom_login_url($url) {
-// On définit la nouvelle URL du lien ici
   return 'http://localhost/Find6Friends/';
 }
