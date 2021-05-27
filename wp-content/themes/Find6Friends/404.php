@@ -13,7 +13,7 @@
 				</div>
 				<div class="single-animation">
 					<h5>Pour retourner au spawn, et continuer à profiter du site</h5>
-					<a href="#" class="btn cta-btn">Retourner a l'acceuil</a>
+					<a href="<?php get_home_url() ?>" class="btn cta-btn">Retourner a l'acceuil</a>
 				</div>
 			</div>
 		</div>
