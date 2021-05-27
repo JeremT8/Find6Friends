@@ -33,7 +33,7 @@
 					<p>
 						Inscrivez-vous, renseignez vos agents R6 préférés, trouver des amies avec lesquels vous pourrez jouer. Suivez l'actualité Rainbow Six, ou profitez de nos partenaires. 
 					</p>
-					<a href="inscription" class="btn body-btn">Pour en savoir encore plus, cliquez ici !</a>
+					<a href="a-propos" class="btn body-btn">Pour en savoir encore plus, cliquez ici !</a>
 				</div>
 			</div>
 		</div>

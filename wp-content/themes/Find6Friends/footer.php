@@ -18,17 +18,9 @@
 				<div class="footer-content-divider animate-bottom">
 					<div class="social-media">
 						<h4>Suivez nous</h4>
-						<ul class="social-icons">
-							<li>
-								<a href="#"><i class="fab fa-twitter"></i></a>
+							<li class="social-icons">
+								<a href="https://twitter.com/Find6F"><i class="fab fa-twitter"></i></a>
 							</li>
-							<li>
-								<a href="#"><i class="fab fa-facebook"></i></a>
-							</li>
-							<li>
-								<a href="#"><i class="fab fa-instagram"></i></a>
-							</li>
-						</ul>
 					</div>
 				</div>
 			</div>
