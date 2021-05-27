@@ -13,7 +13,7 @@
 				</div>
 				<div class="single-animation">
 					<h5>Parés pour rejoindres l'aventure</h5>
-					<a href="#" class="btn cta-btn">Cliques ici</a>
+					<a href="inscription" class="btn cta-btn">Cliques ici</a>
 				</div>
 			</div>
 		</div>

@@ -36,7 +36,6 @@
 					<img src="<?php echo $img_attribs[0]; ?>" width="300" height="300">
 				<?php } ?>
 				<div class="extrait-article"><?php the_excerpt() ?>
-					<p class="date-author">Publié par : <?php the_author(); ?></p>
 				</div>
 			</div>
 			<?php
